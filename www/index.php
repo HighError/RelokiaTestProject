@@ -34,7 +34,7 @@ foreach ($array as $value) {
         $ticket->getGroup()->getName(),
         $ticket->getCompany()->getId(),
         $ticket->getCompany()->getName(),
-        $ticket->getComments()
+        $ticket->getCommentsString()
     ];
 
     fputcsv($file, $csv_array);
