@@ -1,0 +1,11 @@
+#PhpStorm
+.idea/
+
+# composer
+www/vendor/
+
+#file
+www/*.csv
+
+#Logs
+logs/

@@ -1,0 +1,17 @@
+{
+    "name": "higherror/relokia-test-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Higherror\\RelokiaTestProject\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "7.0"
+    }
+}
